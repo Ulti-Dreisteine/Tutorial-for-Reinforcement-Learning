@@ -98,7 +98,7 @@ $$
 \begin{align*}
     Q_{\pi}(s, a)
     &= R_{s}^a + \gamma\sum_{s'\in\cal S}P_{s\rightarrow s'}^a\sum_{a'\in\cal A} \pi(s', a') Q_{\pi}(s', a') \\ \tag{6}
-    &= R_{s}^a + \gamma\sum_{s'\in\cal S}\sum_{a'\in\cal A} P_{s\rightarrow s'}^a \cdot \pi(s', a') Q_{\pi}(s', a') \\
+    &= R_{s}^a + \gamma\sum_{s'\in\cal S}P_{s\rightarrow s'}^a \sum_{a'\in\cal A} \cdot \pi(s', a') Q_{\pi}(s', a') \\
 \end{align*}
 $$
 
@@ -107,7 +107,7 @@ $$
 $$
 \begin{align*}
     Q_{\pi}(s, a)
-    &= R_{s}^a + \gamma\sum_{a'\in\cal A} \cdot \pi(s', a') Q_{\pi}(s', a') \tag{7}\\
+    &= R_{s}^a + \gamma\sum_{a'\in\cal A} \pi(s', a') Q_{\pi}(s', a') \tag{7}\\
 \end{align*}
 $$
 
