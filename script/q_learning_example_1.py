@@ -8,7 +8,7 @@ Created on 2024/01/26 19:57:09
 
 @Email: dreisteine262@163.com
 
-@Describe: Q学习案例
+@Describe: Q学习案例1——寻找房间出口
 """
 
 import numpy as np
